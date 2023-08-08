@@ -2,5 +2,5 @@
 
 ![image](#)
 
-Link do <a target="_blank">[Projeto ]( target="_blank"https://juliopaschoal.github.io/Agency-Bootstrap/)</a>
+Link do [Projeto ](https://juliopaschoal.github.io/Agency-Bootstrap/)
 
