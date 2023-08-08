@@ -5,12 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>hDC Agency -  a sua agência web</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap">
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+    <script src="js/progressbar.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <script src="js/bundle.min.js"></script>
   </head>
   <body>
-    <h1>Teste</h1>
-    <script src="js/bundle.min.js"></script>
+    <header>
+      <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" src="img/hdcagency_logo.svg" alt="hDC Agency"> hDC Agency
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+           data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+              <a class="nav-item nav-link" id="about-menu" href="#">A agência</a>
+              <a class="nav-item nav-link" id="services-menu" href="#">Serviços</a>
+              <a class="nav-item nav-link" id="team-menu" href="#">Time</a>
+              <a class="nav-item nav-link" id="portfolio-menu" href="#">Projetos</a>
+              <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
     <script src="js/scripts.js"></script>
   </body>
+  
 </html>
